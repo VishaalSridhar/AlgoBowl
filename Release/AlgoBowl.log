@@ -1,0 +1,38 @@
+﻿  main.cpp
+main.cpp(19): error C2131: expression did not evaluate to a constant
+  main.cpp(19): note: failure was caused by a read of a variable outside its lifetime
+  main.cpp(19): note: see usage of 'N'
+main.cpp(27): error C3863: array type 'int [N][N]' is not assignable
+main.cpp(28): error C3863: array type 'int [N][N]' is not assignable
+main.cpp(33): error C2131: expression did not evaluate to a constant
+  main.cpp(33): note: failure was caused by a read of a variable outside its lifetime
+  main.cpp(33): note: see usage of 'N'
+main.cpp(36): error C2131: expression did not evaluate to a constant
+  main.cpp(36): note: failure was caused by a read of a variable outside its lifetime
+  main.cpp(36): note: see usage of 'N'
+main.cpp(41): error C3863: array type 'int [N/]' is not assignable
+main.cpp(42): error C3863: array type 'int [N/]' is not assignable
+main.cpp(45): error C3863: array type 'int [N-sizeof(int )]' is not assignable
+main.cpp(46): error C3863: array type 'int [N-sizeof(int )]' is not assignable
+main.cpp(51): warning C4018: '<': signed/unsigned mismatch
+main.cpp(52): warning C4018: '<': signed/unsigned mismatch
+main.cpp(65): error C3863: array type 'int [N/]' is not assignable
+main.cpp(66): error C3863: array type 'int [N-sizeof(int )]' is not assignable
+main.cpp(85): warning C4018: '<': signed/unsigned mismatch
+main.cpp(96): warning C4018: '<': signed/unsigned mismatch
+main.cpp(98): warning C4018: '<': signed/unsigned mismatch
+main.cpp(109): warning C4018: '<': signed/unsigned mismatch
+main.cpp(111): warning C4018: '<': signed/unsigned mismatch
+main.cpp(120): warning C4018: '<': signed/unsigned mismatch
+main.cpp(126): error C3863: array type 'int [N/]' is not assignable
+main.cpp(127): error C3863: array type 'int [N-sizeof(int )]' is not assignable
+main.cpp(129): warning C4018: '<': signed/unsigned mismatch
+main.cpp(130): warning C4018: '<': signed/unsigned mismatch
+main.cpp(138): warning C4018: '<': signed/unsigned mismatch
+main.cpp(139): warning C4018: '<': signed/unsigned mismatch
+main.cpp(145): warning C4018: '<': signed/unsigned mismatch
+main.cpp(146): warning C4552: '<<': operator has no effect; expected operator with side-effect
+main.cpp(149): warning C4018: '<': signed/unsigned mismatch
+main.cpp(150): warning C4552: '<<': operator has no effect; expected operator with side-effect
+main.cpp(154): error C2296: '*': illegal, left operand has type 'int [N/]'
+main.cpp(154): error C2296: '*': illegal, left operand has type 'int [N-sizeof(int )]'
